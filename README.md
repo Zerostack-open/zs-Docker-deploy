@@ -1,6 +1,6 @@
 # Pull ZCOS image contianer
 
-Use this container to pull the ZCOS image and install it on qualified hardwar.
+Use this container to pull the ZCOS image and install it on qualified hardware.
 
 ## Zerostack MVH:
 https://zerostack.zendesk.com/hc/en-us/articles/115008840528-ZeroStack-Minimum-Viable-Hardware-MVH-Guidelines"
