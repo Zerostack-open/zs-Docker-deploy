@@ -1,10 +1,10 @@
-# Pull ZCOS image contianer
+# Setup ZCOS contianer
 
-Use this container to pull the ZCOS image and install it on qualified hardware.
+Use this container to pull, install and configure ZCOS on qualified server hardware.
 
 ## Container operations
 ### Build the image
-#run ./make.sh
+#./make.sh - shell script to build, does the docker build
 
 #sudo docker build -t zerostack-setup .
 
@@ -13,6 +13,9 @@ Use this container to pull the ZCOS image and install it on qualified hardware.
 
 ### Zerostack MVH:
 https://zerostack.zendesk.com/hc/en-us/articles/115008840528-ZeroStack-Minimum-Viable-Hardware-MVH-Guidelines"
+
+### Zerostack preflight check script
+https://github.com/Zerostack-open/zs-preflight
 
 ### Zerostack resources URL:
 https://www.zerostack.com/resources/
