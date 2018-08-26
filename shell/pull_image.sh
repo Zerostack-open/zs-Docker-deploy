@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
 set -e
 ZCOSURL='http://54.183.17.201/html/zsusb-platform-3.0.0-100766.iso'
-
+echo ""
+echo ""
 echo "Welcome to the ZeroStack install container."
 echo ""
 echo ""
@@ -88,11 +89,10 @@ echo ""
 echo ""
 echo "To learn more about Zerostack please check out our Resources page at https://www.zerostack.com/resources/"
 echo ""
-echo ""
-read -p "Would you like to download the ZCOS image? (Y/N)" -n 1 -r
-echo    # (optional) move to a new line
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-    exit 1
-fi
-wget --directory-prefix='/opt/ZCOS/' --progress=bar $ZCOSURL || { echo "Could not download ZCOS."; exit 1; }
+#echo ""
+#read -p "Would you like to download the ZCOS image? (Y/N)" -n 1 -r
+#if [[ ! $REPLY -ne ^[Yy]$ ]]; then
+#    exit 1
+#else
+#    wget -P '/opt/ZCOS/' $ZCOSURL || { echo "Could not download ZCOS."; exit 1; }
+#fi

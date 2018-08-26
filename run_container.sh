@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -v /opt:/opt/ZCOS --name zerostack-setup zerostack-setup
+docker run -i -t zerostack-setup /opt/ZCOS/pull_image.sh

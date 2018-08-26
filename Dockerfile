@@ -8,6 +8,4 @@ RUN mkdir -p $DOWNLOAD_PATH
 
 WORKDIR $DOWNLOAD_PATH
 
-ADD shell/pull_image.sh $INSTALL_PATH
-
-CMD ["./start_api.sh"]
+ADD shell/pull_image.sh $DOWNLOAD_PATH
