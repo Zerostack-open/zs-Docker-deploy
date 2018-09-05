@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker build -t zerostack-setup .
+sudo docker build -t zerostack-cp .

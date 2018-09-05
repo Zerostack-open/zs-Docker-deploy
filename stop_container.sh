@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo docker stop zerostack-setup
-sudo docker rm zerostack-setup
+sudo docker stop zerostack-cp
+sudo docker rm zerostack-cp

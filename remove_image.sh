@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker rmi zerostack-setup
+sudo docker rmi zerostack-cp
