@@ -1,6 +1,6 @@
 # Setup ZeroStack Cloud Platform contianer
 
-Use this container to pull, install and configure ZCOS on qualified server hardware.
+Use this container to understand how to pull, install and configure ZCOS on qualified server hardware.
 
 ## Container operations
 ### Build the image
